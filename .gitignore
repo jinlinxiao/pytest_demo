@@ -1,0 +1,12 @@
+.idea
+.pytest_cache
+__pycache__
+
+assets
+*.css
+*.html
+
+*.pyc
+*.log
+*.csv
+
