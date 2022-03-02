@@ -10,8 +10,8 @@
 import pytest
 
 
-@pytest.mark.parametrize("x", [0, 1])
-@pytest.mark.parametrize("y", [2, 3])
+@pytest.mark.parametrize("x", [0, 1], ids=["name0", "name1"])
+@pytest.mark.parametrize("y", [2, 3], ids=["name2", "name3"])
 def test_foo(x, y):
     print("测试数据组合：x->%s, y->%s" % (x, y))
 
